@@ -34,7 +34,7 @@ export const TitleRow = styled(Box)(({ theme }) => ({
 
 export const TitleAccent = styled("span")(({ theme }) => ({
   width: 32,
-  height: 2,
+  height: 5,
   borderRadius: 999,
   background: `linear-gradient(90deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
 }));

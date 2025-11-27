@@ -7,11 +7,15 @@ import {
   Chip,
   Stack,
   Link as MuiLink,
+  useTheme,
+  useMediaQuery,
 } from "@mui/material";
 import SectionWrapper from "../layout/SectionWrapper";
 import { ProjectCard } from "../../styles/projectStyles";
 
 const Projects = ({ projects }) => {
+  const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <SectionWrapper
       id="projects"
@@ -28,7 +32,8 @@ const Projects = ({ projects }) => {
                 </Typography>
                 <Stack
                   direction="row"
-                  spacing={1}
+                  justifyContent={isSmall ? "center" : "flex-start"}
+                  gap={1}
                   sx={{ flexWrap: "wrap", marginBottom: 1.5 }}
                 >
                   {project.techStack.map((tech) => (

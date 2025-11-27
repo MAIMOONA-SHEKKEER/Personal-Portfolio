@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with your site gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="100%" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#020617"></stop>
+      <stop offset="50%" stop-color="#4f46e5"></stop>
+      <stop offset="100%" stop-color="#f97316"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="88" height="88" rx="22" fill="url(#grad)"></rect>
+
+  <!-- Subtle border -->
+  <rect x="6" y="6" width="88" height="88" rx="22" fill="none" stroke="rgba(15,23,42,0.6)" stroke-width="2"></rect>
+
+  <!-- Initial "M" for Maimoona -->
+  <text x="50%" y="58%" font-size="50" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-weight="700">
+    M
+  </text>
+</svg>

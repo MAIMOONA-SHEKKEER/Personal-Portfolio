@@ -1,6 +1,6 @@
 const personalInfo = {
   name: "Maimoona Shekkeer",
-  role: "Software Engineer | Frontend & Mobile Developer",
+  role: "Software Engineer | Web & Mobile Application Developer",
   location: "Kerala, India · Open to Hybrid & Remote Roles",
   email: "maimoonashekkeer@gmail.com",
   linkedin: "https://www.linkedin.com/in/maimoona-shekkeer-145b23255",
